@@ -1,0 +1,364 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T22:01:51.707Z",
+        "line": 3,
+        "name": "Check the number of broken image",
+        "description": "",
+        "id": "broken-image-test-page;check-the-number-of-broken-image",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105051123000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the broken Image URL",
+            "match": {
+              "location": "stepDefinitions.brokenImagesSteps.user_hit_the_broken_image_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170825000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user lands on broken image page",
+            "match": {
+              "location": "stepDefinitions.brokenImagesSteps.user_lands_on_broken_image_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2013491000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is able to validate the number of broken image",
+            "match": {
+              "location": "stepDefinitions.brokenImagesSteps.user_is_able_to_validate_the_number_of_broken_image()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Broken Image test page",
+    "description": "",
+    "id": "broken-image-test-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/brokenImage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T22:03:39.464Z",
+        "line": 3,
+        "name": "Check the dropdown1 is working",
+        "description": "",
+        "id": "dropdown-test-page;check-the-dropdown1-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22892050000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lands on the dropdown page",
+            "match": {
+              "location": "stepDefinitions.dropdownSteps.user_lands_on_the_dropdown_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2107131000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on the dropdown1",
+            "match": {
+              "location": "stepDefinitions.dropdownSteps.user_click_on_the_dropdown1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 577419000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is able select and verify the drowpdown1",
+            "match": {
+              "location": "stepDefinitions.dropdownSteps.user_is_able_select_and_verify_the_drowpdown1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T22:04:05.058Z",
+        "line": 9,
+        "name": "Check the dropdown2 is working",
+        "description": "",
+        "id": "dropdown-test-page;check-the-dropdown2-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19799803000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user lands on the dropdown page",
+            "match": {
+              "location": "stepDefinitions.dropdownSteps.user_lands_on_the_dropdown_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406669000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on the dropdown2",
+            "match": {
+              "location": "stepDefinitions.dropdownSteps.user_click_on_the_dropdown2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 716787000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is able select and verify the drowpdown2",
+            "match": {
+              "location": "stepDefinitions.dropdownSteps.user_is_able_select_and_verify_the_drowpdown2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dropdown test page",
+    "description": "",
+    "id": "dropdown-test-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ddrop.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T22:04:25.987Z",
+        "line": 3,
+        "name": "check the table1 last name is sorted in ascending order",
+        "description": "",
+        "id": "table-sorter-test;check-the-table1-last-name-is-sorted-in-ascending-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31759518000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the table sorter url",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_hit_the_table_sorter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110746000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the last name in table1",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_clicks_on_the_last_name_in_table1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3382050000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is able to validate last name in ascending order in table1",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_is_able_to_validate_last_name_in_ascending_order_in_table1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T22:05:01.256Z",
+        "line": 9,
+        "name": "check the table1 last name is sorted in descending order",
+        "description": "",
+        "id": "table-sorter-test;check-the-table1-last-name-is-sorted-in-descending-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19838929000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user hit the table sorter url",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_hit_the_table_sorter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72899000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on the last name in table1",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_clicks_on_the_last_name_in_table1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 601718000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is able to validate last name in descending order in table1",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_is_able_to_validate_last_name_in_descending_order_in_table1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T22:05:21.776Z",
+        "line": 15,
+        "name": "check the table2 first name is sorted in ascending order",
+        "description": "",
+        "id": "table-sorter-test;check-the-table2-first-name-is-sorted-in-ascending-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23472630000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user hit the table sorter url",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_hit_the_table_sorter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 427903000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on the first name in table2",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_clicks_on_the_first_name_in_table2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1167304000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is able to validate first name in ascending order in table2",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_is_able_to_validate_last_name_in_ascending_order_in_table2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T22:05:46.848Z",
+        "line": 21,
+        "name": "check the table2 first name is sorted in descending order",
+        "description": "",
+        "id": "table-sorter-test;check-the-table2-first-name-is-sorted-in-descending-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70069892000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user hit the table sorter url",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_hit_the_table_sorter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130986000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on the first name in table2",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_clicks_on_the_first_name_in_table2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2385459000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is able to validate first name in descending order in table2",
+            "match": {
+              "location": "stepDefinitions.tableSortSteps.user_is_able_to_validate_first_name_in_descending_order_in_table2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Table sorter test",
+    "description": "",
+    "id": "table-sorter-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/tableSort.feature",
+    "tags": []
+  }
+]

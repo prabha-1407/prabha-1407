@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "970f1db5-181c-4ec0-88fc-e5a0bbc5b895",
+		"name": "Chucknorris API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test",
+			"item": [
+				{
+					"name": "Categories",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Verify Categories\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"    var data = pm.response.json();\r",
+									"\r",
+									"    pm.environment.set(\"Category\",data[6] );\r",
+									"    pm.expect(data.length).to.eql(16);\r",
+									"    console.log(data.length);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.chucknorris.io/jokes/categories",
+							"protocol": "https",
+							"host": [
+								"api",
+								"chucknorris",
+								"io"
+							],
+							"path": [
+								"jokes",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category Value Check",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test('Category Value Check', function(){\r",
+									"       \r",
+									"    var data = pm.response.json();\r",
+									"    for (var i = 0; i < data.result.length;i++)\r",
+									"    {\r",
+									"        console.log(data[i]);\r",
+									"        pm.expect( data[i]).to.include(pm.environment.get(\"Category\"));\r",
+									"    }\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.chucknorris.io/jokes/search?query={{Category}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"chucknorris",
+								"io"
+							],
+							"path": [
+								"jokes",
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "{{Category}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"id": "2f0143aa-1644-4be5-aaf9-dd5c96f6649c",
+	"name": "Chucknorris API",
+	"timestamp": "2021-03-23T20:01:00.239Z",
+	"collection_id": "3305f889-247b-4d13-bc64-d73cc22cb7be",
+	"folder_id": 0,
+	"environment_id": "6fdd3ac0-0b6c-4cea-a5e4-e5d9594f4962",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f404f21e-5353-4b80-8ba6-88c7f61ec7e3",
+			"name": "Categories",
+			"url": "https://api.chucknorris.io/jokes/categories",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify Categories": true
+			},
+			"testPassFailCounts": {
+				"Verify Categories": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				312
+			],
+			"allTests": [
+				{
+					"Verify Categories": true
+				}
+			]
+		},
+		{
+			"id": "c1157e40-f45c-46b1-9a2b-ee20cc3b7887",
+			"name": "Category Value Check",
+			"url": "https://api.chucknorris.io/jokes/search?query=food",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Category Value Check": true
+			},
+			"testPassFailCounts": {
+				"Category Value Check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				306
+			],
+			"allTests": [
+				{
+					"Category Value Check": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 618,
+	"collection": {
+		"requests": [
+			{
+				"id": "f404f21e-5353-4b80-8ba6-88c7f61ec7e3",
+				"method": "GET"
+			},
+			{
+				"id": "c1157e40-f45c-46b1-9a2b-ee20cc3b7887",
+				"method": "GET"
+			}
+		]
+	}
+}
